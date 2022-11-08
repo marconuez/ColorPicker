@@ -1,0 +1,99 @@
+.container{
+    display: flex;
+    background-color: #181E24 ;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.caja{
+    /* background-color:#5631FA ; */
+    /* height: 700px; */
+    transition: all 0.5s ease;
+    transform: rotate(-20deg);
+    position: fixed;
+    margin: -380px;
+    width: 100%;
+    height: 75vh;
+    right: 300px;
+    padding-left: 300px;
+    padding-right: 200px;
+    box-shadow: 10px 0px 80px rgb(30, 34, 30);
+    filter: blur(5px);
+}
+
+
+.color1{
+    background-color:#0fffd7 ;
+}
+.color2{
+    background-color:#006edb ;
+}
+.color3{
+    background-color:#0d3863 ;
+}
+.color4{
+    background-color:#a54b27 ;
+}
+.color5{
+    background-color:#ff00d4 ;
+}
+.color6{
+    background-color:#ff0101 ;
+}
+.color7{
+    background-color:#9e9e9e ;
+}
+.color8{
+    background-color:#015817 ;
+}
+.color9{
+    background-color:#00ff73 ;
+}
+.color10{
+    background-color:#e7fd1c ;
+}
+
+.toolsContainer{
+    
+    align-content: center;
+    /* padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 700px; */
+    /* margin: 0 auto; */
+    padding: 150px;
+    margin-top: 50%;
+    /* left: 30%; */
+    position: relative;
+    transition: all 0.5s ease;
+    border-radius: 50px;
+    box-shadow: 10px 0px 80px rgb(30, 34, 30);
+    border: 1px solid rgb(255, 255, 255, 0.6);
+}
+
+.contenedorFooter{
+    background-color:#525252 ;
+    margin-bottom: 20px;
+    position: fixed;
+    bottom: 0;
+    border-radius: 20px;
+}
+
+.contenedorBotones{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.Boton{
+    padding: 30px;
+    transition: all 0.5s ease;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+
+.Boton:hover{
+    background-color:#15f044 ;
+}
+
+
